@@ -92,10 +92,12 @@ p {
     margin-top: 20px;
     display: flex;
     width: 100%;
+    flex-wrap: wrap;
 }
 
 .column {
     flex: 1;
+    min-width: 500px;
 }
 
 .column .info-table {
@@ -294,10 +296,12 @@ p {
 
 .flip-card {
     background-color: transparent;
-    width: 80%;
+    width: 500px;
+    flex-shrink: 0;
     height: 300px;
     border: 1px solid #f1f1f1;
     perspective: 1000px;
+    margin-bottom: 20px;
 }
 
 .flip-card-inner {
@@ -371,13 +375,16 @@ p {
 #hobbies-list {
     width: 100%;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     margin-top: 15px;
+    flex-wrap: wrap;
 }
 
 .hobby {
     width: 18%;
     text-align: center;
+    flex-shrink: 0;
+    min-width: 150px;
 }
 
 .hobby img {
