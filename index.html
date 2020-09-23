@@ -1,0 +1,384 @@
+<!doctype html>
+<html lang="ru">
+<head>
+    <meta charset="utf-8">
+    <title>CV Изаков Артемий</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+<header id="main-header" class="shadow">
+    <button class="icon-button" onclick="toggleMenuVisibility()">
+        <img src="images/menu-black-48dp.svg" alt="&equiv;">
+    </button>
+    <h1 id="app-name">Curriculum Vitae</h1>
+</header>
+<article id="main-page">
+    <div id="person-info" class="section">
+        <img id="person-photo" class="shadow" src="images/me.jpeg" alt="photo">
+        <div id="person-info-text">
+            <h1>Изаков Артемий</h1>
+            <table id="contact-info" class="info-table">
+                <tbody>
+                <tr>
+                    <th>
+                        <img src="images/cake-24px.svg" alt="birthday">
+                        Дата рождения
+                    </th>
+                    <td id="date-of-birth">25 ноября 1999</td>
+                </tr>
+                <tr>
+                    <th>
+                        <img src="images/email-black-24dp.svg" alt="email">
+                        Электронная почта
+                    </th>
+                    <td>art.izakov@gmail.com</td>
+                </tr>
+                <tr>
+                    <th>
+                        <img src="images/vk-logo.svg" alt="vk">
+                        ВКонтакте
+                    </th>
+                    <td>
+                        <a target="_blank" rel="noopener noreferrer"
+                           href="https://vk.com/art_izakov">vk.com/art_izakov</a>
+                    </td>
+                </tr>
+                <tr>
+                    <th>
+                        <img src="images/telegram-logo.svg" alt="telegram">
+                        Telegram
+                    </th>
+                    <td>
+                        <a target="_blank" rel="noopener noreferrer" href="https://t.me/art_izakov">@art_izakov</a>
+                    </td>
+                </tr>
+                <tr>
+                    <th>
+                        <img src="images/github-logo.png" alt="github">
+                        Github
+                    </th>
+                    <td>
+                        <a target="_blank" rel="noopener noreferrer" href="https://github.com/OptimumDev?tab=repositories">OptimumDev</a>
+                    </td>
+                </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+    <div id="education" class="section">
+        <h1>Образование</h1>
+        <div class="two-columns">
+            <div class="column">
+                <h2>Школа</h2>
+                <table class="info-table">
+                    <tbody>
+                    <tr>
+                        <th>Период обучения</th>
+                        <td>2006 - 2017</td>
+                    </tr>
+                    <tr>
+                        <th>Название</th>
+                        <td>Гимназия №5</td>
+                    </tr>
+                    <tr>
+                        <td>Закончил с золотой медалью</td>
+                    </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="column">
+                <h2>Университет</h2>
+                <table class="info-table">
+                    <tbody>
+                    <tr>
+                        <th>Период обучения</th>
+                        <td>2017 - 2021</td>
+                    </tr>
+                    <tr>
+                        <th>Название</th>
+                        <td>Уральский Федеральный Университет</td>
+                    </tr>
+                    <tr>
+                        <th>Институт</th>
+                        <td>Институт Естественных Наук и Математики <span class="hint">(МатМех)</span></td>
+                    </tr>
+                    <tr>
+                        <th>Направление</th>
+                        <td>Фундаментальная Информатика и Информационные технологии</td>
+                    </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+    <div id="skills" class="section">
+        <h1>Навыки</h1>
+        <div class="two-columns">
+            <div class="column">
+                <h2>Языки программирования</h2>
+                <div class="hint">
+                    1 - могу читать код<br>
+                    3 - использовал в обучении<br>
+                    5 - писал продуктовый код<br>
+                </div>
+                <table class="info-table">
+                    <tbody>
+                    <tr>
+                        <th>C#</th>
+                        <td class="stars">
+                            <span class="filled-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <th>JavaScript</th>
+                        <td class="stars">
+                            <span class="filled-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <th>Python</th>
+                        <td class="stars">
+                            <span class="filled-stars">&#9733;&#9733;&#9733;&#9733;</span>
+                            <span class="empty-stars">&#9733;</span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <th>Haskell</th>
+                        <td class="stars">
+                            <span class="filled-stars">&#9733;&#9733;&#9733;</span>
+                            <span class="empty-stars">&#9733;&#9733;</span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <th>Scala</th>
+                        <td class="stars">
+                            <span class="filled-stars">&#9733;&#9733;&#9733;</span>
+                            <span class="empty-stars">&#9733;&#9733;</span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <th>Java</th>
+                        <td class="stars">
+                            <span class="filled-stars">&#9733;&#9733;</span>
+                            <span class="empty-stars">&#9733;&#9733;&#9733;</span>
+                        </td>
+                    </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="column">
+                <h2>Soft-скиллы</h2>
+                <table class="info-table">
+                    <tbody>
+                    <tr>
+                        <th>Общительный</th>
+                        <td>
+                            Постоянно открыт для диалога, легко нахожу общий язык с людьми.
+                            Без проблем знакомлюсь и общаюсь с новыми собеседниками
+                        </td>
+                    </tr>
+                    <tr>
+                        <th>Организованный</th>
+                        <td>
+                            Могу заставить себя что-то делать, даже если очень не хочется, но надо.
+                            Так же не раз организовывал процесс для других людей,
+                            управлял командой в рамках учебных преоктов
+                        </td>
+                    </tr>
+                    <tr>
+                        <th>Упорынй</th>
+                        <td>
+                            Стремлюсь доводить любое дело до конца,
+                            стараюсь отстаивать свою точку зрения
+                            (но при этом всегда согласен с аргументированной критикой)
+                        </td>
+                    </tr>
+                    <tr>
+                        <th>Любознательный</th>
+                        <td>
+                            Постоянно готов учиться, узнавать что-то новое.
+                            Очень быстро запоминаю интересную мне информацию.
+                        </td>
+                    </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+    <div id="jobs" class="section">
+        <h1>Опыт работы</h1>
+        <div class="two-columns">
+            <div class="column">
+                <div class="flip-card">
+                    <div class="flip-card-inner">
+                        <div class="flip-card-front shadow">
+                            <div class="image-container">
+                                <img src="images/kontur-logo.jpg" alt="Контур">
+                            </div>
+                            <table class="info-table">
+                                <tbody>
+                                <tr>
+                                    <th>Период работы</th>
+                                    <td>Июль 2019 - Август 2020</td>
+                                </tr>
+                                <tr>
+                                    <th>Должность</th>
+                                    <td>
+                                        Специалист <span class="hint">(C# Разработчик)</span>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <th>Команда</th>
+                                    <td>Контур.Закупки</td>
+                                </tr>
+                                </tbody>
+                            </table>
+                            <span class="hint">Наведите курсор для подробностей</span>
+                        </div>
+                        <div class="flip-card-back shadow">
+                            <h3>Первый опыт работы - летняя стажировка</h3>
+                            <p>
+                                Занимался разработкой и поддержкой веб-сайта
+                                <a href="https://zakupki.kontur.ru">Контур.Закупки</a>
+                            </p>
+                            <h3>Основные используемые технологии:</h3>
+                            <ul>
+                                <li>ASP.NET Core</li>
+                                <li>Razor Pages</li>
+                                <li>JQuery</li>
+                                <li>MongoDB</li>
+                                <li>RabbitMQ</li>
+                                <li>ElasticSearch</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="column">
+                <div class="flip-card">
+                    <div class="flip-card-inner">
+                        <div class="flip-card-front shadow">
+                            <div class="image-container">
+                                <img src="images/tochka-logo.png" alt="Точка">
+                            </div>
+                            <table class="info-table">
+                                <tbody>
+                                <tr>
+                                    <th>Период работы</th>
+                                    <td>Август 2020 - Текущее время</td>
+                                </tr>
+                                <tr>
+                                    <th>Должность</th>
+                                    <td>
+                                        Разработчик <span class="hint">(C#)</span>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <th>Команда</th>
+                                    <td>Проектный Офис</td>
+                                </tr>
+                                </tbody>
+                            </table>
+                            <span class="hint">Наведите курсор для подробностей</span>
+                        </div>
+                        <div class="flip-card-back shadow">
+                            <h3>Полноценная должность Джуниор-разработчика</h3>
+                            <p>
+                                Занимаюсь созданием инструментов для организации процесса открытия расчетного счета
+                            </p>
+                            <h3>Основные используемые технологии:</h3>
+                            <ul>
+                                <li>ASP.NET Core</li>
+                                <li>Microsoft Dynamics CRM</li>
+                                <li>JavaScript</li>
+                                <li>MS SQL Server</li>
+                                <li>Entity Framework</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="hobbies" class="section">
+        <h1>Увлечения</h1>
+        <div id="hobbies-list">
+            <div class="hobby">
+                <img src="images/dog.svg" alt="Собака">
+                <h3>Большую часть времени уделяю своей собаке</h3>
+            </div>
+            <div class="hobby">
+                <img src="images/computer.svg" alt="Компьютер">
+                <h3>В свободное время люблю поиграть в компьютер</h3>
+            </div>
+            <div class="hobby">
+                <img src="images/drawing.svg" alt="Рисование">
+                <h3>Иногда на меня находит вдохновение и я что-нибудь рисую</h3>
+            </div>
+            <div class="hobby">
+                <img src="images/water-ski.svg" alt="Водные лыжи">
+                <h3>Летом с нетерпением жду выезда на природу, чтобы покататься на водных лыжах</h3>
+            </div>
+            <div class="hobby">
+                <img src="images/guitar.svg" alt="Гитара">
+                <h3>Учусь играть на акустической гитаре</h3>
+            </div>
+        </div>
+    </div>
+</article>
+<nav id="menu">
+    <button id="menu-close-button" class="icon-button" onclick="toggleMenuVisibility()">
+        <img src="images/menu_open-black-48dp.svg" alt="&lt;">
+    </button>
+    <ul>
+        <li>
+            <h2>
+                <a href="#person-info" onclick="toggleMenuVisibility()">Общая информация</a>
+            </h2>
+        </li>
+        <li>
+            <h2>
+                <a href="#education" onclick="toggleMenuVisibility()">Образование</a>
+            </h2>
+        </li>
+        <li>
+            <h2>
+                <a href="#skills" onclick="toggleMenuVisibility()">Навыки</a>
+            </h2>
+        </li>
+        <li>
+            <h2>
+                <a href="#jobs" onclick="toggleMenuVisibility()">Опыт работы</a>
+            </h2>
+        </li>
+        <li>
+            <h2>
+                <a href="#hobbies" onclick="toggleMenuVisibility()">Увлечения</a>
+            </h2>
+        </li>
+    </ul>
+</nav>
+<div id="course-expectations">
+    <div id="expectations-header" onclick="toggleExpectationsVisibility()">
+        <h1>Ожидания от курса</h1>
+        <img id="show-expectations-button" src="images/expand_more-black-48dp.svg" alt="v">
+    </div>
+    <h3>Этот курс меня привлек тем,</h3>
+    <p>
+        что только он предлагает узнать,
+        как правильно организовывать свою речь во время доклада и в статьях.
+        Я считаю что, это один из ключевых навыков для хорошего IT-специалиста
+    </p>
+    <span class="hint">Ну и 9 зачетных единиц, конечно :)</span>
+    <h3>Я хотел бы услышать на семинаре следующие темы:</h3>
+    <ul>
+        <li>Web-sockets</li>
+        <li>Vue</li>
+        <li>Angular</li>
+        <li>OpenID Connect</li>
+        <li>JSON-rpc</li>
+    </ul>
+</div>
+<script src="index.js"></script>
+</body>
+</html>
